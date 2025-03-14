@@ -3,11 +3,13 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [language, setLanguage] = useState("ka"); // Default: Kannada
   const [langDropdown, setLangDropdown] = useState(false);
+  const { t, i18n } = useTranslation();
 
   // Load language preference from localStorage on page load
   useEffect(() => {
@@ -34,14 +36,14 @@ export default function Navbar() {
               height={40}
               width={40}
             />
-            <span className="pt-1">RTI Helper</span>
+            <span className="pt-1">{t("app_name")}</span>
           </div>
         </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <NavLink href="/">Home</NavLink>
-          <NavLink href="/about">About</NavLink>
+          <NavLink href="/">{t("app_home")}</NavLink>
+          <NavLink href="/about">{t("app_about")}</NavLink>
 
           {/* Language Selector */}
           <div className="relative px-3 py-2">
@@ -118,10 +120,10 @@ export default function Navbar() {
         }`}
       >
         <NavLink href="/" onClick={() => setIsOpen(false)}>
-          Home
+          {t("app_home")}
         </NavLink>
         <NavLink href="/about" onClick={() => setIsOpen(false)}>
-          About
+          {t("app_about")}
         </NavLink>
 
         {/* Mobile Language Selector */}

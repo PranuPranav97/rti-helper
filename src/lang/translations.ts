@@ -1,7 +1,12 @@
 export const translations = {
   en: {
+    //Application:
+    app_name: "RTI-Helper",
+    app_home: "Home",
+    app_about: "About",
+
     homepage_title: "RTI Helper",
-    rti_application_title: "RTI Application",
+    rti_application_page_title: "RTI Application-RTI-Helper",
 
     //Buttons
     print: "🖨️  Print",
@@ -28,9 +33,15 @@ export const translations = {
     applicant_sign: "Signature",
   },
   kn: {
+    //Application
+    //Application:
+    app_name: "ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ",
+    app_home: "ಮುಖ ಪುಟ ",
+    app_about: "ನಮ್ಮ ಬಗ್ಗೆ ",
+
     //Page titles
     homepage_title: "ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ",
-    rti_application_title: "ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆಯ ಅರ್ಜಿ",
+    rti_application_page_title: "ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆಯ ಅರ್ಜಿ-ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ",
     //Generic
     place: "ಸ್ಥಳ",
     date: "ದಿನಾಂಕ ",
