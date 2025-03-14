@@ -18,6 +18,12 @@ export const translations = {
     place: "Place",
     date: "Date",
 
+    //Home page
+    create_rti_application_card_heading: "Create RTI Application",
+    create_rti_application_card_description:
+      "Easily create your RTI application with a few clicks.",
+    create_rti_application_cta_btn_text: "Get Started",
+
     //RTI-Application
     application_heading:
       "Form of application for seeking information under the Right to Information Act,2005.",
@@ -52,7 +58,13 @@ export const translations = {
     //instructions
     click_to_edit: "✏️ ಎಡಿಟ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ. ",
 
-    ////RTI-Application
+    //Home page
+    create_rti_application_card_heading: "ಹೊಸ ಮಾಹಿತಿ ಹಕ್ಕು ಅರ್ಜಿ.",
+    create_rti_application_card_description:
+      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮಾಹಿತಿ ಹಕ್ಕು ಅರ್ಜಿಯನ್ನು ರಚಿಸಿ.",
+    create_rti_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
+
+    //RTI-Application
     application_heading: "ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ ಕಾಯಿದೆ",
     application_sub_heading:
       "ನಮೂನೆ ಎ (ಪ್ರಕರಣ 6(1) ಮತ್ತು 7 91 ) ರ ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ 2005",

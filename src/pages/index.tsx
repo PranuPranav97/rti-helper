@@ -23,16 +23,16 @@ export default function Home() {
             </div>
             <div>
               <h2 className="text-xl font-semibold text-gray-800">
-                Create RTI Application
+                {t("create_rti_application_card_heading")}{" "}
               </h2>
               <p className="text-gray-600 mt-2">
-                Easily create your RTI application with a few clicks.
+                {t("create_rti_application_card_description")}
               </p>
             </div>
 
             <Link href="/rti-application">
               <button className="w-full mt-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
-                Get Started →
+                {t("create_rti_application_cta_btn_text")} →
               </button>
             </Link>
           </div>
