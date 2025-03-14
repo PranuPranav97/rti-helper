@@ -19,14 +19,20 @@ export const translations = {
     date: "Date",
 
     //Home page
+    //RTI Application
     create_rti_application_card_heading: "Create RTI Application",
     create_rti_application_card_description:
       "Easily create your RTI application with a few clicks.",
     create_rti_application_cta_btn_text: "Get Started",
+    //First Appeal
+    first_appeal_card_heading: "Create First Appeal",
+    first_appeal_card_description:
+      "Easily create your First Appeal with a few clicks.",
+    first_appeal_application_cta_btn_text: "Get Started",
 
     //RTI-Application
     application_heading:
-      "Form of application for seeking information under the Right to Information Act,2005.",
+      "Application for seeking information under the Right to Information Act,2005.",
     application_sub_heading: "",
     applicant_name: "Applicant Name",
     applicant_address: "Address",
@@ -37,6 +43,22 @@ export const translations = {
     application_postal_order_attached: "Postal Order Attached. ",
     application_postal_order_number: "Postal Order Number",
     applicant_sign: "Signature",
+
+    //First appeal
+    first_appeal_heading:
+      "FIRST APPEAL UNDER SECTION 19(1) OF THE R.T.I. ACT,2005",
+    first_appeal_to: "To",
+    first_appeal_appellant: "Name and Address of the Appellant",
+    first_appeal_PIO_particulars: "Particulars of the PIO.",
+    first_appeal_PIO_name: "a)Name",
+    first_appeal_PIO_address: "b)Address",
+    first_appeal_details_of_information_sought:
+      "Details of the information sought under section 6(1)",
+    first_appeal_particulars_of_application_fee:
+      "Particulars of the Application fee",
+    first_appeal_date_of_seeking_information_application:
+      "Date of submission of application for seeking information",
+    first_appeal_reason: "Reason for Appeal",
   },
   kn: {
     //Application
@@ -64,6 +86,12 @@ export const translations = {
       "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮಾಹಿತಿ ಹಕ್ಕು ಅರ್ಜಿಯನ್ನು ರಚಿಸಿ.",
     create_rti_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
 
+    //First Appeal
+    first_appeal_card_heading: "ಹೊಸ ಮೇಲ್ಮನವಿ.",
+    first_appeal_card_description:
+      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮೊದಲನೇ  ಮೇಲ್ಮನವಿಯನ್ನು ರಚಿಸಿ.",
+    first_appeal_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
+
     //RTI-Application
     application_heading: "ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ ಕಾಯಿದೆ",
     application_sub_heading:
@@ -77,6 +105,21 @@ export const translations = {
     application_postal_order_attached: "ಪೋಸ್ಟಲ್  ಆರ್ಡರನ್ನು ಲಗತ್ತಿಸಿದೆ. ",
     application_postal_order_number: "ಪೋಸ್ಟಲ್  ಆರ್ಡರ ನ0",
     applicant_sign: "ಅರ್ಜಿದಾರರ ಸಹಿ",
+
+    //First appeal
+    first_appeal_heading:
+      "ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ ಕಾಯಿದೆ 2005 ಸೆಕ್ಷನ್ 19(1) ರ ಅಡಿಯಲ್ಲಿ ಮೊದಲನೇ ಮೇಲ್ಮನವಿ",
+    first_appeal_to: "ಗೆ",
+    first_appeal_appellant: "ಮೇಲ್ಮನವಿದಾರರ  ಹೆಸರು ಮತ್ತು ವಿಳಾಸ ",
+    first_appeal_PIO_particulars: "ಸಾರ್ವಜನಿಕ ಮಾಹಿತಿ ಅವರ ವಿವರಗಳು",
+    first_appeal_PIO_name: "1)ಹೆಸರು",
+    first_appeal_PIO_address: "2)ವಿಳಾಸ",
+    first_appeal_details_of_information_sought:
+      "ಸೆಕ್ಷನ್ 6(1) ಅಡಿಯಲ್ಲಿ ಕೋರಲಾದ ಮಾಹಿತಿಯ ವಿವರಗಳು",
+    first_appeal_particulars_of_application_fee: "ಅರ್ಜಿ ಶುಲ್ಕದ ವಿವರಗಳು",
+    first_appeal_date_of_seeking_information_application:
+      "ಮಾಹಿತಿ ಕೋರಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿದ ದಿನಾಂಕ",
+    first_appeal_reason: "ಮೇಲ್ಮನವಿ ಕಾರಣ",
   },
 };
 
