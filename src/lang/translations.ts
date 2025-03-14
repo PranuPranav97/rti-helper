@@ -23,7 +23,7 @@ export const translations = {
     application_related_to_year: "From Year",
     application_from_which_officer:
       " From which public information officer the information is requested and designation.",
-    application_postal_order_attached: "Attached Postal Order. ",
+    application_postal_order_attached: "Postal Order Attached. ",
     application_postal_order_number: "Postal Order Number",
     applicant_sign: "Signature",
   },
