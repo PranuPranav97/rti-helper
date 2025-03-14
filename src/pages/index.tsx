@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import Navbar from "@/features/app/navbar";
 import Footer from "@/features/app/footer";
-import nextConfig from "../../next.config";
+
 import { imageDirectoryBasePath } from "../../imagePath";
 
 export default function Home() {
