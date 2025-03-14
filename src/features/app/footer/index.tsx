@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <footer className="bg-white shadow-md top-0  text-gray-700 py-4 text-center  w-full onlyPrint">
       <p className="text-sm">

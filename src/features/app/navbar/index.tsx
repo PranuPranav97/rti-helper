@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
@@ -9,7 +9,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [language, setLanguage] = useState("ka"); // Default: Kannada
   const [langDropdown, setLangDropdown] = useState(false);
-  const [forceRender, setForceRender] = useState(0); // Dummy state
+
   const { t, i18n } = useTranslation();
 
   const handleLanguageChange = (lang: string) => {

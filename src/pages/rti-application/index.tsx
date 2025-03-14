@@ -1,14 +1,14 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+// import Image from "next/image";
+// import { Geist, Geist_Mono } from "next/font/google";
 import { useTranslation } from "react-i18next";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
 import Navbar from "@/features/app/navbar";
-import { useEffect } from "react";
+
 import Footer from "@/features/app/footer";
 
 export default function Home() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <>
