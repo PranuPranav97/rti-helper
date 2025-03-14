@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import Navbar from "@/features/app/navbar";
 import Footer from "@/features/app/footer";
+import nextConfig from "../../next.config";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -17,7 +18,7 @@ export default function Home() {
             <div className="flex justify-center pt-2 pb-2">
               <Image
                 alt="create RTI Application"
-                src={"/logo.png"}
+                src={`${nextConfig.basePath}/logo.png`}
                 height={100}
                 width={100}
               />
