@@ -18,7 +18,7 @@ export default function Home() {
             <div className="flex justify-center pt-2 pb-2">
               <Image
                 alt="create RTI Application"
-                src={`${nextConfig.basePath}/logo.png`}
+                src={`${nextConfig.basePath}logo.png`}
                 height={100}
                 width={100}
               />

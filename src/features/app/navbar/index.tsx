@@ -34,7 +34,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-2">
             <Image
               alt="RTI Helper Logo"
-              src={`${nextConfig.basePath}/logo.png`}
+              src={`${nextConfig.basePath}logo.png`}
               height={40}
               width={40}
             />
