@@ -2,9 +2,6 @@ import { FC } from "react";
 import { useTranslation } from "react-i18next";
 import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
-import Navbar from "@/features/app/navbar";
-
-import Footer from "@/features/app/footer";
 
 export const FirstAppealFeature: FC = () => {
   const { t } = useTranslation();
