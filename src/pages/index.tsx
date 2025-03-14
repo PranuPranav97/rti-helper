@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
 import Navbar from "@/features/app/navbar";
+import Footer from "@/features/app/footer";
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -38,6 +39,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
