@@ -1,0 +1,39 @@
+name: Deploy RTI-Helper to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Change this if your default branch is different
+
+permissions:
+  contents: write # Required for GitHub Pages deployment
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Next.js App
+        run: npm run build
+
+      - name: Export Static Files
+        run: npm run export
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out # The folder where Next.js exports static files
+          keep_files: false
+          force_orphan: true
