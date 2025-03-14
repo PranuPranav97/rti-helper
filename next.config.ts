@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   output: "export",
   images: { unoptimized: true },
-  basePath: process.env.NODE_ENV === "development" ? "/" : "",
+  basePath: process.env.NODE_ENV === "development" ? "/" : "rti-helper",
 };
 
 export default nextConfig;

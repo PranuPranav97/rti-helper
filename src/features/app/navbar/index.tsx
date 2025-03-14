@@ -4,7 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-import nextConfig from "../../../../next.config";
+
+import { imageDirectoryBasePath } from "../../../../imagePath";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-2">
             <Image
               alt="RTI Helper Logo"
-              src={`${nextConfig.basePath}logo.png`}
+              src={`${imageDirectoryBasePath}logo.png`}
               height={40}
               width={40}
             />

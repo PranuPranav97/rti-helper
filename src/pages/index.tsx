@@ -5,6 +5,7 @@ import Link from "next/link";
 import Navbar from "@/features/app/navbar";
 import Footer from "@/features/app/footer";
 import nextConfig from "../../next.config";
+import { imageDirectoryBasePath } from "../../imagePath";
 
 export default function Home() {
   const { t } = useTranslation();
@@ -18,7 +19,7 @@ export default function Home() {
             <div className="flex justify-center pt-2 pb-2">
               <Image
                 alt="create RTI Application"
-                src={`${nextConfig.basePath}logo.png`}
+                src={`${imageDirectoryBasePath}logo.png`}
                 height={100}
                 width={100}
               />
