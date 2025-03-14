@@ -16,7 +16,7 @@ export default function Document() {
         <link
           rel="icon"
           type="image/png"
-          href={`${nextConfig.basePath}/logo.png`}
+          href={`${nextConfig.basePath}logo.png`}
         />
       </Head>
       <body className="antialiased">
