@@ -1,1 +1,1 @@
-export const imageDirectoryBasePath = "";
+export const imageDirectoryBasePath = "/rti-helper/";
