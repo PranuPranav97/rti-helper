@@ -5,6 +5,7 @@ import "react-tooltip/dist/react-tooltip.css";
 import { Tooltip } from "react-tooltip";
 import Navbar from "@/features/app/navbar";
 import { useEffect } from "react";
+import Footer from "@/features/app/footer";
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -172,6 +173,7 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
