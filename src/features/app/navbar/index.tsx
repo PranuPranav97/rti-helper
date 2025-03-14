@@ -9,21 +9,22 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [language, setLanguage] = useState("ka"); // Default: Kannada
   const [langDropdown, setLangDropdown] = useState(false);
+  const [forceRender, setForceRender] = useState(0); // Dummy state
   const { t, i18n } = useTranslation();
 
-  // Load language preference from localStorage on page load
-  useEffect(() => {
-    const savedLang = localStorage.getItem("language") || "ka";
-    setLanguage(savedLang);
-  }, []);
-
-  // Save selected language to localStorage
   const handleLanguageChange = (lang: string) => {
+    console.log("Changing language to:", lang);
     setLanguage(lang);
+
+    i18n
+      .changeLanguage(i18n.language === "kn" ? lang : "kn")
+      .then(() => {
+        console.log("Language changed to:", i18n.language);
+      })
+      .catch((err) => console.error("Language change failed:", err));
     localStorage.setItem("language", lang);
     setLangDropdown(false);
   };
-
   return (
     <nav className="bg-white shadow-md fixed w-full top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
