@@ -59,6 +59,16 @@ export const translations = {
     first_appeal_date_of_seeking_information_application:
       "Date of submission of application for seeking information",
     first_appeal_reason: "Reason for Appeal",
+
+    //About Us- Page
+    aboutTitle: "About RTI-Helper",
+    aboutDescription:
+      "Making the RTI application process simpler, accessible, and hassle-free.",
+    whyTitle: "Why RTI Helper?",
+    whyDescription:
+      "Filing an RTI application can be complex, especially when dealing with format issues and language barriers. RTI Helper simplifies the process by providing structured, editable templates in Kannada, making it easy for anyone to generate applications.",
+    contactTitle: "Get in Touch",
+    githubIssue: "Found an issue or have a suggestion? Raise it on our GitHub:",
   },
   kn: {
     //Application
@@ -120,6 +130,16 @@ export const translations = {
     first_appeal_date_of_seeking_information_application:
       "ಮಾಹಿತಿ ಕೋರಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿದ ದಿನಾಂಕ",
     first_appeal_reason: "ಮೇಲ್ಮನವಿ ಕಾರಣ",
+
+    //About Us- Page
+    aboutTitle: "ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ ಬಗ್ಗೆ",
+    aboutDescription:
+      "ಆರ್‌ಟಿಐ ಅರ್ಜಿ ರಚನೆ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸರಳ ಮತ್ತು ತೊಂದರೆ-ಮುಕ್ತವಾಗಿಸುವುದು.",
+    whyTitle: "ಏಕೆ ಆರ್‌ಟಿಐ ಸಹಾಯಕ?",
+    whyDescription:
+      "ಆರ್‌ಟಿಐ ಅರ್ಜಿಯನ್ನು ಸಲ್ಲಿಸುವುದು ಸಂಕೀರ್ಣವಾಗಬಹುದು, ವಿಶೇಷವಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಸಮಸ್ಯೆಗಳು ಮತ್ತು ಭಾಷಾ ಅಡೆತಡೆಗಳನ್ನು ಎದುರಿಸುವಾಗ. ಆರ್‌ಟಿಐ ಸಹಾಯಕವು ಕನ್ನಡದಲ್ಲಿ ರಚನಾತ್ಮಕ, ಸಂಪಾದಿಸಬಹುದಾದ ಟೆಂಪ್ಲೇಟ್‌ಗಳನ್ನು ಒದಗಿಸುವ ಮೂಲಕ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸರಳಗೊಳಿಸುತ್ತದೆ, ಇದು ಯಾರಾದರೂ ಅರ್ಜಿಗಳನ್ನು ರಚಿಸಲು ಸುಲಭಗೊಳಿಸುತ್ತದೆ.",
+    contactTitle: "ಸಂಪರ್ಕದಲ್ಲಿರಿ",
+    githubIssue: "ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆಯೇ ಅಥವಾ ಸಲಹೆ ಇದೆಯೇ? GitHub ನಲ್ಲಿ ಸಂಪರ್ಕಿಸಿ:",
   },
 };
 
