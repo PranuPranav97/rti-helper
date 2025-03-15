@@ -6,12 +6,16 @@ import Navbar from "@/features/app/navbar";
 import Footer from "@/features/app/footer";
 
 import { imageDirectoryBasePath } from "../../imagePath";
+import Head from "next/head";
 
 export default function Home() {
   const { t } = useTranslation();
 
   return (
     <>
+      <Head>
+        <title>{t("homepage_title")}</title>
+      </Head>
       <Navbar />
       <div className=" flex justify-center">
         <div className="flex items-center gap-10 justify-center min-h-screen  sm:grid  sm:grid-cols-1  md:grid  md:grid-cols-2">

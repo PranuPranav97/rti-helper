@@ -6,12 +6,16 @@ import { Tooltip } from "react-tooltip";
 import Navbar from "@/features/app/navbar";
 
 import Footer from "@/features/app/footer";
+import Head from "next/head";
 
 export default function Home() {
   const { t } = useTranslation();
 
   return (
     <>
+      <Head>
+        <title>{t("rti_application_page_title")}</title>
+      </Head>
       <Navbar />
 
       <div className="p-6">

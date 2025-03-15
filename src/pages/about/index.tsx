@@ -1,5 +1,6 @@
 import Footer from "@/features/app/footer";
 import Navbar from "@/features/app/navbar";
+import Head from "next/head";
 import React from "react";
 import { useTranslation } from "react-i18next";
 
@@ -8,6 +9,9 @@ const AboutUs = () => {
 
   return (
     <>
+      <Head>
+        <title>{t("about_us_page_title")}</title>
+      </Head>
       <Navbar />
       <div className="max-w-4xl mx-auto p-6 space-y-8">
         {/* Hero Section */}

@@ -5,8 +5,11 @@ export const translations = {
     app_home: "Home",
     app_about: "About",
 
+    //Page Titles
     homepage_title: "RTI Helper",
     rti_application_page_title: "RTI Application-RTI-Helper",
+    first_appeal_page_title: "First Appeal-RTI-Helper",
+    about_us_page_title: "About Us-RTI-Helper",
 
     //Buttons
     print: "🖨️  Print",
@@ -80,6 +83,9 @@ export const translations = {
     //Page titles
     homepage_title: "ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ",
     rti_application_page_title: "ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆಯ ಅರ್ಜಿ-ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ",
+    first_appeal_page_title: "ಮೊದಲ  ಮೇಲ್ಮನವಿ-ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ",
+    about_us_page_title: "ನಮ್ಮ ಬಗ್ಗೆ-ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ",
+
     //Generic
     place: "ಸ್ಥಳ",
     date: "ದಿನಾಂಕ ",
