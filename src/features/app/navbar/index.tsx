@@ -19,7 +19,7 @@ export default function Navbar() {
     setLanguage(lang);
 
     i18n
-      .changeLanguage(i18n.language === "kn" ? lang : "kn")
+      .changeLanguage(i18n.language !== "kn" ? lang : "kn")
       .then(() => {
         console.log("Language changed to:", i18n.language);
       })
