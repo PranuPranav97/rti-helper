@@ -1,4 +1,3 @@
-import Footer from "@/features/app/footer";
 import Navbar from "@/features/app/navbar";
 import Head from "next/head";
 import React from "react";
