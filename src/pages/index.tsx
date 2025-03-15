@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="p-6 flex justify-center">
-        <div className="flex items-center gap-10 justify-center min-h-screen ">
+      <div className=" flex justify-center">
+        <div className="flex items-center gap-10 justify-center min-h-screen  sm:grid  sm:grid-cols-1  md:grid  md:grid-cols-2">
           <div className="w-72 bg-white shadow-2xl rounded-2xl p-6 flex flex-col justify-between">
             <div className="flex justify-center pt-2 pb-2">
               <Image
