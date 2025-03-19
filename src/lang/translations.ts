@@ -111,7 +111,7 @@ export const translations = {
     //RTI-Application
     application_heading: "ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ ಕಾಯಿದೆ",
     application_sub_heading:
-      "ನಮೂನೆ ಎ (ಪ್ರಕರಣ 6(1) ಮತ್ತು 7 91 ) ರ ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ 2005",
+      "ನಮೂನೆ ಎ (ಪ್ರಕರಣ 6(1) ಮತ್ತು 7(1) ) ರ ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ 2005",
     applicant_name: "ಅರ್ಜಿದಾರರ ಪೂರ್ಣ ಹೆಸರು",
     applicant_address: "ವಿಳಾಸ",
     application_content: " ದಾಖಲೆಯ ವಿವರಗಳು  / ತನಿಖೆಗಾಗಿ  / ಪ್ರಮಾಣೀಕೃತ  ಮಾದರಿ",
