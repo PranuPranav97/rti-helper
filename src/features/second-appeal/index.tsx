@@ -69,7 +69,7 @@ export const SecondAppealFeature: FC = () => {
                 <div className="grid grid-cols-2 gap-2  border-[1px] border-black border-b-0">
                   <div className="border-r-[1px] border-black p-5">
                     {" "}
-                    {t("first_appeal_second_appeal_brief_facts")} (*)
+                    {t("second_appeal_brief_facts")} (*)
                   </div>
                   <div
                     contentEditable
