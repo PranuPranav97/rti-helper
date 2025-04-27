@@ -33,6 +33,12 @@ export const translations = {
       "Easily create your First Appeal with a few clicks.",
     first_appeal_application_cta_btn_text: "Get Started",
 
+    //Second Appeal
+    second_appeal_card_heading: "Create Second Appeal",
+    second_appeal_card_description:
+      "Easily create your Second Appeal with a few clicks.",
+    second_appeal_application_cta_btn_text: "Get Started",
+
     //RTI-Application
     application_heading:
       "Application for seeking information under the Right to Information Act,2005.",
@@ -46,6 +52,7 @@ export const translations = {
     application_postal_order_attached: "Postal Order Attached. ",
     application_postal_order_number: "Postal Order Number",
     applicant_sign: "Signature",
+    appelant_sign: "Applicant Signature",
 
     //First appeal
     first_appeal_heading:
@@ -62,6 +69,29 @@ export const translations = {
     first_appeal_date_of_seeking_information_application:
       "Date of submission of application for seeking information",
     first_appeal_reason: "Reason for Appeal",
+
+    //2nd appeal 19/3
+    second_appeal_title: "Second Appeal",
+    second_appeal_heading:
+      "SECOND APPEAL UNDER SECTION 19(3) OF THE R.T.I. ACT, 2005",
+
+    second_appeal_appellant: "Name and Address of the Appellant",
+    second_appeal_PIO_particulars:
+      "Name and Address of the Respondent. (State Public Information Officer against the decision of whom the appeal is preferred).",
+    second_appeal_first_appeal_order_details:
+      "Particulars of the order including number, if any, against which the appeal is preferred (self attested copies of the orders or documents in three sets).",
+    second_appeal_brief_facts: "Brief facts leading to appeal. ",
+    second_appeal_details_against_deemed_rejection:
+      "If the appeal is preferred against deemed rejection, the particulars of the first appeal including number and date and name and address of the First Appellate Authority to whom the first appeal was made.",
+    second_appeal_prayer_or_relief_sought: "Prayer or relief sought.",
+    second_appeal_grounds_for_relief: "Grounds for the prayer or relief.",
+
+    second_appeal_verification_by_appelant:
+      "Verification by the appellant. (3 copies).",
+    second_appeal_index:
+      "An index of the documents referred to in the appeal in triplicate.",
+    second_appeal_other_info:
+      "Any other information which may be necessary for deciding the appeal. ",
 
     //About Us- Page
     aboutTitle: "About RTI-Helper",
@@ -103,10 +133,16 @@ export const translations = {
     create_rti_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
 
     //First Appeal
-    first_appeal_card_heading: "ಹೊಸ ಮೇಲ್ಮನವಿ.",
+    first_appeal_card_heading: "ಹೊಸ ಮೊದಲನೇ ಮೇಲ್ಮನವಿ.",
     first_appeal_card_description:
       "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮೊದಲನೇ  ಮೇಲ್ಮನವಿಯನ್ನು ರಚಿಸಿ.",
     first_appeal_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
+
+    //Second Appeal
+    second_appeal_card_heading: "ಹೊಸ ಎರಡನೇ ಮೇಲ್ಮನವಿ.",
+    second_appeal_card_description:
+      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಎರಡನೇ ಮೇಲ್ಮನವಿಯನ್ನು ರಚಿಸಿ.",
+    second_appeal_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
 
     //RTI-Application
     application_heading: "ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ ಕಾಯಿದೆ",
