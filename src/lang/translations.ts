@@ -77,7 +77,7 @@ export const translations = {
 
     second_appeal_appellant: "Name and Address of the Appellant",
     second_appeal_PIO_particulars:
-      "Name and Address of the Respondent. (State Public Information Officer against the decision of whom the appeal is preferred).",
+      "Name and Address of the Respondent. (State/Central Public Information Officer against the decision of whom the appeal is preferred).",
     second_appeal_first_appeal_order_details:
       "Particulars of the order including number, if any, against which the appeal is preferred (self attested copies of the orders or documents in three sets).",
     second_appeal_brief_facts: "Brief facts leading to appeal. ",
