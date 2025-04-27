@@ -52,7 +52,7 @@ export const translations = {
     application_postal_order_attached: "Postal Order Attached. ",
     application_postal_order_number: "Postal Order Number",
     applicant_sign: "Signature",
-    appelant_sign: "Applicant Signature",
+    appelant_sign: "Appelant Signature",
 
     //First appeal
     first_appeal_heading:
@@ -157,6 +157,7 @@ export const translations = {
     application_postal_order_attached: "ಪೋಸ್ಟಲ್  ಆರ್ಡರನ್ನು ಲಗತ್ತಿಸಿದೆ. ",
     application_postal_order_number: "ಪೋಸ್ಟಲ್  ಆರ್ಡರ ನ0",
     applicant_sign: "ಅರ್ಜಿದಾರರ ಸಹಿ",
+    appelant_sign: "ಮೇಲ್ಮನವಿದಾರರ ಸಹಿ ",
 
     //First appeal
     first_appeal_heading:
