@@ -149,7 +149,7 @@ export const FirstAppealFeature: FC = () => {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <div className="pr-10 pt-10 pb-10">{t("applicant_sign")}</div>
+                  <div className="pr-10 pt-10 pb-10">{t("appelant_sign")}</div>
                 </div>
               </div>
             </div>
