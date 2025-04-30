@@ -174,6 +174,29 @@ export const translations = {
       "ಮಾಹಿತಿ ಕೋರಿ ಅರ್ಜಿ ಸಲ್ಲಿಸಿದ ದಿನಾಂಕ",
     first_appeal_reason: "ಮೇಲ್ಮನವಿ ಕಾರಣ",
 
+    //2nd appeal
+    second_appeal_title: "ಎರಡನೇ ಮೇಲ್ಮನವಿ",
+    second_appeal_heading:
+      "ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆ 2005 ರ ಸೆಕ್ಷನ್ 19(3)ರ ಅಡಿಯಲ್ಲಿ ಎರಡನೇ ಮೇಲ್ಮನವಿ",
+
+    second_appeal_appellant: "ಮೇಲ್ಮನವಿದಾರರ ಹೆಸರು ಮತ್ತು ವಿಳಾಸ",
+    second_appeal_PIO_particulars:
+      "ಪ್ರತಿವಾದಿಯ ಹೆಸರು ಮತ್ತು ವಿಳಾಸ.(ಯಾರ ನಿರ್ಧಾರದ ವಿರುದ್ಧ ಮೇಲ್ಮನವಿ ಸಲ್ಲಿಸಬೇಕೆಂದು ರಾಜ್ಯ/ಕೇಂದ್ರ ಸಾರ್ವಜನಿಕ ಮಾಹಿತಿ ಅಧಿಕಾರಿ)",
+    second_appeal_first_appeal_order_details:
+      "ಮೇಲ್ಮನವಿ ಸಲ್ಲಿಸಲು ಆದ್ಯತೆ ನೀಡಲಾಗಿರುವ ಆದೇಶದ ಸಂಖ್ಯೆ, ಯಾವುದಾದರೂ ಇದ್ದರೆ, ಸೇರಿದಂತೆ ಆದೇಶದ ವಿವರಗಳು (ಆದೇಶಗಳ ಸ್ವಯಂ ದೃಢೀಕರಿಸಿದ ಪ್ರತಿಗಳು ಅಥವಾ ಮೂರು ಸೆಟ್‌ಗಳಲ್ಲಿ ದಾಖಲೆಗಳು)",
+    second_appeal_brief_facts: "ಮೇಲ್ಮನವಿಗೆ ಕಾರಣವಾಗುವ ಸಂಕ್ಷಿಪ್ತ ಸಂಗತಿಗಳು.",
+    second_appeal_details_against_deemed_rejection:
+      "ಒಂದು ವೇಳೆ ಮನವಿಯನ್ನು ತಿರಸ್ಕರಿಸಿದಲ್ಲಿ, ಮೊದಲ ಮೇಲ್ಮನವಿ ಸಲ್ಲಿಸಿದ ಪ್ರಾಧಿಕಾರದ ಸಂಖ್ಯೆ, ದಿನಾಂಕ ಮತ್ತು ಹೆಸರು ಮತ್ತು ವಿಳಾಸ ಸೇರಿದಂತೆ ಮೊದಲ ಮೇಲ್ಮನವಿಯ ವಿವರಗಳು. ",
+    second_appeal_prayer_or_relief_sought: "ಪ್ರಾರ್ಥನೆ ಅಥವಾ  ಕೋರಿರುವ ಪರಿಹಾರ.",
+    second_appeal_grounds_for_relief: "ಪ್ರಾರ್ಥನೆ ಅಥವಾ ಪರಿಹಾರಕ್ಕೆ ಆಧಾರಗಳು.",
+
+    second_appeal_verification_by_appelant:
+      "ಮೇಲ್ಮನವಿದಾರರಿಂದ ಪರಿಶೀಲನೆ. (3 ಪ್ರತಿಗಳು).",
+    second_appeal_index:
+      "ಮೇಲ್ಮನವಿಯಲ್ಲಿ ಉಲ್ಲೇಖಿಸಲಾದ ದಾಖಲೆಗಳ ಸೂಚ್ಯಂಕ (ಮೂರು ಪ್ರತಿಗಳು)",
+    second_appeal_other_info:
+      "ಮೇಲ್ಮನವಿಯನ್ನು ನಿರ್ಧರಿಸಲು ಅಗತ್ಯವಿರುವ ಯಾವುದೇ ಇತರ ಮಾಹಿತಿ.",
+
     //About Us- Page
     aboutTitle: "ಮಾಹಿತಿ ಹಕ್ಕು ಸಹಾಯಕ ಬಗ್ಗೆ",
     aboutDescription:
