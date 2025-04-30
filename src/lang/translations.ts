@@ -40,6 +40,12 @@ export const translations = {
       "Easily create your Second Appeal as per RTI ACT 2005 u/s 19/3 with a few clicks.",
     second_appeal_application_cta_btn_text: "Get Started",
 
+    //Info commission complaints
+    info_comm_complaint_card_heading: "Complaint to Information Commission",
+    info_comm_complaint_card_description:
+      "Easily create your complaint as per RTI ACT 2005 u/s 18/1 with a few clicks.",
+    info_comm_complaint_application_cta_btn_text: "Get Started",
+
     //RTI-Application
     application_heading:
       "Application for seeking information under the Right to Information Act,2005.",
@@ -144,6 +150,12 @@ export const translations = {
     second_appeal_card_description:
       "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಎರಡನೇ ಮೇಲ್ಮನವಿ(ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆ 2005ರ ಸೆಕ್ಷನ್ 19/3)ಯನ್ನು ರಚಿಸಿ.",
     second_appeal_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
+
+    //Info commission complaints
+    info_comm_complaint_card_heading: "ಮಾಹಿತಿ ಆಯೋಗಕ್ಕೆ ದೂರು ",
+    info_comm_complaint_card_description:
+      "RTI ACT 2005 (18/1) ಪ್ರಕಾರ ನಿಮ್ಮ ದೂರನ್ನು ಕೆಲವೇ ಕ್ಲಿಕ್‌ಗಳೊಂದಿಗೆ ಸುಲಭವಾಗಿ ರಚಿಸಿ.",
+    info_comm_complaint_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
 
     //RTI-Application
     application_heading: "ಮಾಹಿತಿ ಹಕ್ಕು ಅಧಿನಿಯಮ ಕಾಯಿದೆ",
