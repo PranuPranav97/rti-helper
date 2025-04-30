@@ -25,10 +25,11 @@ export const translations = {
     //RTI Application
     create_rti_application_card_heading: "Create RTI Application",
     create_rti_application_card_description:
-      "Easily create your RTI application with a few clicks.",
+      "Easily create your RTI application as per RTI ACT 2005 u/s 6/1 with a few clicks.",
     create_rti_application_cta_btn_text: "Get Started",
     //First Appeal
-    first_appeal_card_heading: "Create First Appeal",
+    first_appeal_card_heading:
+      "Create First Appeal as per RTI ACT 2005 u/s 19/1",
     first_appeal_card_description:
       "Easily create your First Appeal with a few clicks.",
     first_appeal_application_cta_btn_text: "Get Started",
@@ -36,7 +37,7 @@ export const translations = {
     //Second Appeal
     second_appeal_card_heading: "Create Second Appeal",
     second_appeal_card_description:
-      "Easily create your Second Appeal with a few clicks.",
+      "Easily create your Second Appeal as per RTI ACT 2005 u/s 19/3 with a few clicks.",
     second_appeal_application_cta_btn_text: "Get Started",
 
     //RTI-Application
@@ -129,19 +130,19 @@ export const translations = {
     //Home page
     create_rti_application_card_heading: "ಹೊಸ ಮಾಹಿತಿ ಹಕ್ಕು ಅರ್ಜಿ.",
     create_rti_application_card_description:
-      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮಾಹಿತಿ ಹಕ್ಕು ಅರ್ಜಿಯನ್ನು ರಚಿಸಿ.",
+      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮಾಹಿತಿ ಹಕ್ಕು ಅರ್ಜಿಯನ್ನು (ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆ 2005ರ ಸೆಕ್ಷನ್ 6/1) ರಚಿಸಿ.",
     create_rti_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
 
     //First Appeal
     first_appeal_card_heading: "ಹೊಸ ಮೊದಲನೇ ಮೇಲ್ಮನವಿ.",
     first_appeal_card_description:
-      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮೊದಲನೇ  ಮೇಲ್ಮನವಿಯನ್ನು ರಚಿಸಿ.",
+      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಮೊದಲನೇ ಮೇಲ್ಮನವಿ(ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆ 2005ರ ಸೆಕ್ಷನ್ 19/1)ಯನ್ನು ರಚಿಸಿ.",
     first_appeal_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
 
     //Second Appeal
     second_appeal_card_heading: "ಹೊಸ ಎರಡನೇ ಮೇಲ್ಮನವಿ.",
     second_appeal_card_description:
-      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಎರಡನೇ ಮೇಲ್ಮನವಿಯನ್ನು ರಚಿಸಿ.",
+      "ಕೆಲವೇ ಕ್ಲಿಕ್ ನಲ್ಲಿ ಸುಲಭವಾಗಿ ಎರಡನೇ ಮೇಲ್ಮನವಿ(ಮಾಹಿತಿ ಹಕ್ಕು ಕಾಯಿದೆ 2005ರ ಸೆಕ್ಷನ್ 19/3)ಯನ್ನು ರಚಿಸಿ.",
     second_appeal_application_cta_btn_text: "ಶುರು ಮಾಡಿ",
 
     //RTI-Application
