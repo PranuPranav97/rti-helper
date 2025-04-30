@@ -8,17 +8,17 @@ import Footer from "@/features/app/footer";
 
 import Head from "next/head";
 import { useTranslation } from "react-i18next";
-import { SecondAppealFeature } from "@/features/second-appeal";
+import { InformationCommissionComplaintFeature } from "@/features/info-commission-complaint";
 
 export default function SecondAppealPage() {
   const { t } = useTranslation();
   return (
     <>
       <Head>
-        <title>{t("second_appeal_page_title")}</title>
+        <title>{t("info_comm_complaint_page_title")}</title>
       </Head>
       <Navbar />
-      <SecondAppealFeature />
+      <InformationCommissionComplaintFeature />
       <Footer />
     </>
   );
